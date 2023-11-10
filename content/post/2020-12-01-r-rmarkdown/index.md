@@ -55,4 +55,4 @@ pie(
 <p class="caption"><span id="fig:pie"></span>Figure 1: A fancy pie chart.</p>
 </div>
 
-<img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-1-1.png" width="672" />
+

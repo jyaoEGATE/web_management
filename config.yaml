@@ -1,7 +1,7 @@
 baseurl: /
 languageCode: en-US
-title: A Hugo website
-theme: hugo-lithium
+title: e-GATE Project
+theme: "hugo-theme-puppet"
 googleAnalytics: ''
 disqusShortname: ''
 ignoreFiles:
@@ -15,9 +15,9 @@ menu:
     - name: About
       url: /about/
     - name: GitHub
-      url: https://github.com/rstudio/blogdown
+      url: 
     - name: Twitter
-      url: https://twitter.com/rstudio
+      url: 
 params:
   MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
   MathJaxVersion: 2.7.5
