@@ -1,24 +1,8 @@
 [build]
-  publish = "exampleSite/public"
-  command = "hugo -s exampleSite"
-
-[build.environment]
-  HUGO_THEME = "repo"
-  HUGO_THEMESDIR = "/opt/build"
-  HUGO_VERSION = "0.106.0"
+  command = "hugo"
+  publish = "public"
 
 [context.production.environment]
-  HUGO_BASEURL = "https://hugo-theme-puppet.netlify.app/"
-
-[context.deploy-preview]
-  command = "hugo -s exampleSite -b $DEPLOY_PRIME_URL"
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Cache-Control = "public, max-age=600"
-
-[[headers]]
-  for = "*.(css|js|woff|woff2|ttf|png|jpg|jpeg)"
-  [headers.values]
-    Cache-Control = "public, max-age=2592000"
+  HUGO_VERSION = "0.92.0"  # Replace with the version of Hugo you are using
+  HUGO_ENV = "production"
+  HUGO_ENABLEGITINFO = "true"
